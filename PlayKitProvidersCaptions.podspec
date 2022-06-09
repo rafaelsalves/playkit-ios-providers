@@ -1,5 +1,5 @@
-suffix = 'beta'   # Dev mode
-# suffix = ''       # Release
+#suffix = '.0'   # Dev mode
+suffix = ''       # Release
 
 Pod::Spec.new do |s|
   
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/rafaelsalves/playkit-ios-providers.git'
   s.license          = { :type => 'AGPLv3', :file => 'LICENSE' }
   s.author           = { 'Kaltura' => 'community@kaltura.com' }
-  s.source           = { :git => 'https://github.com/rafaelsalves/playkit-ios-providers.git', :tag => 'v1.17.0beta' }
+  s.source           = { :git => 'https://github.com/rafaelsalves/playkit-ios-providers.git', :tag => 'v1.17.0' }
   s.swift_version     = '5.0'
 
   s.ios.deployment_target = '9.0'
